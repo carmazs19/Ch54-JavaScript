@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myScript.js">
+        console.log("Este mensaje nunca se mostrara");
+    </script>
+
+</head>
+<body>
+     <button onclick="saludar()">Click me</button>
+
+    <button onclick="colorDeFondo()">Cambiar Color A negro</button>
+
+    <button onclick="bodyColor('red')">Pushele Si Quiere Rojo</button>
+    <button onclick="bodyColor('blue')">Pushele Si Quiere Azul</button>
+    <br>
+      <p id="green-paragraph" onclick="changeToGreenColor()">Cambiar a color verde</p>
+    <p id="red-paragraph" onclick="changeColor(document.getElementById('red-paragraph'),'red')">Cambiar a color rojo</p>
+    <p id="yellow-paragraph" onclick="changeColor(this, 'yellow')">Cambiar a color amarillo</p>
+    <p onclick="changeColor(this, 'violet')">Cambiar a color violet</p>
+    <p buttton onclick="saludillo()">Leer Un Peoma</buttton>
+    
+</body>
+</html>
+
